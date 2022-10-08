@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./soloproject.css">
+</head>
+<body>
+    <div class="background">
+        <div class="scoreboard">
+            <div class="homegame">
+                <p>HOME</p>
+                <p id="homescore">0</p>
+                <div class="additionboard">
+                    <button id="plus1" onclick="plus1()">+1</button>
+                    <button id="plus2" onclick="plus2()">+2</button>
+                    <button id="plus3" onclick="plus3()">+3</button>
+                    
+                    
+                </div>
+        
+            </div>
+        
+            <div>
+                <p>GUEST</p>
+                <p id="guestscore">0</p>
+                <div class="additionboard">
+                    <button id="plusone" onclick="plusone()">+1</button>
+                    <button id="plustwo" onclick="plustwo()">+2</button>
+                    <button id="plusthree" onclick="plusthree()">+3</button>            
+                </div>
+            </div>
+        </div>
+    
+        <div class="reset">
+            <button id="resetbutton" onclick="resetgame()" >RESET</button>
+            <button id="resetbutton" onclick="resetme()">RESET</button>
+        </div>
+    
+    </div>
+
+    
+
+    <script src="./soloproject.js"></script>
+
+
+</body>
+</html>

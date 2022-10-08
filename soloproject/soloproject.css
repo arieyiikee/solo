@@ -1,0 +1,125 @@
+.background{
+    background-color: rgb(48, 48, 58);
+    width: 500px;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+    letter-spacing: 9px;
+    color: white;
+    
+}
+
+.homegame{
+    margin-right: 50px;
+}
+
+#homescore{
+    background-color: rgb(10, 9, 9);
+    color: red;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+#guestscore{
+    background-color: rgb(10, 9, 9);
+    color: red;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.additionboard{
+    display: flex;
+    margin-top: -16px;
+    font-size: 14px;
+}
+
+#plus1{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: transparent;
+    color:rgb(118, 118, 158) ;
+    cursor: pointer;
+}
+
+#plus2{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: transparent;
+    color:rgb(118, 118, 158) ;
+    cursor: pointer;
+}
+
+#plus3{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    background-color: transparent;
+    color:rgb(118, 118, 158);
+    cursor: pointer;
+}
+
+#plusone{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: transparent;
+    color:rgb(118, 118, 158) ;
+    cursor: pointer;
+}
+
+#plustwo{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: transparent;
+    color:rgb(118, 118, 158) ;
+    cursor: pointer;
+}
+
+#plusthree{
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    background-color: transparent;
+    color:rgb(118, 118, 158);
+    cursor: pointer;
+}
+
+.reset{
+    display: flex;
+}
+
+#resetbutton{
+    margin-inline: 90px;
+    margin-block: 20px;
+    border: solid 2px rgb(64, 64, 83);
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+    background-color: transparent;
+    color:rgb(118, 118, 158);
+    cursor: pointer;
+}
